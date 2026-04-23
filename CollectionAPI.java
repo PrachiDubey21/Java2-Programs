@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+<<<<<<< HEAD
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
@@ -37,4 +38,32 @@ public class CollectionAPI {
 		System.out.println();
 		nums.forEach(n -> System.out.println(n));
 	}
+=======
+import java.util.Collection;
+
+public class CollectionAPI {
+
+    // collection API -> concept
+    // collection -> interface
+    // collections -> classes
+
+    public static void main(String[] args) {
+
+       Collection<Integer> nums = new ArrayList<Integer>();
+       nums.add(61);
+       nums.add(5);
+       nums.add(32);
+       nums.add(98);
+
+       System.out.println(nums);
+
+       for(int n : nums){
+        System.out.println(n);
+       }
+      
+       
+
+    }
+
+>>>>>>> ba1831f7b671e580a6aa0276cdeaae242a3e08ad
 }
